@@ -1,5 +1,5 @@
 [package]
-name = "common-programming-concepts"
+name = "variables_mutibility"
 version = "0.1.0"
 edition = "2024"
 
