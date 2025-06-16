@@ -1,7 +1,10 @@
 fn main() {
-    let condition: bool = true;
-    
-    let number : i32 = if condition { 5 } else { 6 };
-    
-    println!("{}", number);
+    let mut number: i32 = 3;
+
+    while number != 0 {
+        println!("{}", number);
+        number -= 1;
+    }
+
+    println!("Blastoff!");
 }
